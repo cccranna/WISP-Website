@@ -1,0 +1,9 @@
+styles.css
+body {
+  background-color: rgb(106, 192, 221);
+}
+
+h1 {
+  color: rgb(70, 208, 91);
+  margin-left: 20px;
+}
