@@ -57,6 +57,44 @@
    color: rgb(255, 255, 255);
    text-align: center;
 }
+img{
+    border: 5px solid #126f3d;
+}
+
+figcaption{
+    font-size: 15px;
+    color: white;
+    background-color: #126f3d;
+    border: 2px solid#126f3d;
+    border-radius: 8px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    gap: 100px;
+    margin: 0%;
+    padding: 20px;
+}
+.column{
+    flex: 1 1 30%;
+    max-width: 30%;
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+
+}
+.column h2{
+    margin-bottom: 50px;
+}
+
+
     
     
 
@@ -74,9 +112,40 @@
 
     </nav>
 
+    <h2>
+        Life at Dartmouth!
+    </h2>
+
     <div class="footer">
         <p>Colleen Cranna - Get to Know me Website</p>
       </div>
+
+    <div class="row"> 
+        <div class="column">
+            <h2> Roomie </h2>
+            <figure>
+                <img src="website-images/IMG_1851.JPG" alt="dani/colleen pic" style="width: 300px;height:400px">
+                <figcaption> This is my roommate Dani! She's from New York. </figcaption>
+            </figure>
+            
+        </div>
+       
+       <div class="column">
+            <h2> Club Soccer </h2>
+            <figure>
+                <img src="website-images/IMG_1542.JPG" alt="team pic" style="width: 400px;height:300px">
+                <figcaption>Here is a photo of some of my club soccer teammates and myself before a team bonding event.</figcaption>
+            </figure>
+        </div>
+        <div class="column">
+            <h2> Nature </h2>
+            <figure>
+                <img src="website-images/CC_WEBSITE_6.jpeg" alt="snow pic" style="width: 300px;height:400px">
+                <figcaption>This is a picture of one of my first days on campus back from break- with a lot of snow!</figcaption>
+            </figure>
+            
+        </div>
+    </div>
 
 </body>
 
